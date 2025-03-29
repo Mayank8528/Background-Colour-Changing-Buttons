@@ -1,0 +1,1 @@
+document.querySelectorAll('.button1 button').forEach(button =>{button.addEventListener('click', () => {document.body.style.backgroundColor=button.textContent.toLowerCase();});});
